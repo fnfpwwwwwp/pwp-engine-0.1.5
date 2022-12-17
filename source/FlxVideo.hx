@@ -3,7 +3,6 @@ import flixel.text.FlxText;
 import flixel.FlxG;
 // import flixel.FlxSubState;
 import flixel.FlxBasic;
-import webView.WebView;
 
 using StringTools;
 
@@ -58,9 +57,4 @@ class FlxVideo extends FlxBasic
 			finishCallback();
 		}
 	 }
-
-	function onURLChanging(url:String) {
-		if (url == 'http://exitme/') if(finishCallback != null) finishCallback(); // drity hack lol
-		trace("WebView is about to open: "+url);
-	}
 }
