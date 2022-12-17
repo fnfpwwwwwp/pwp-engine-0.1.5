@@ -3,8 +3,7 @@ import flixel.text.FlxText;
 import flixel.FlxG;
 // import flixel.FlxSubState;
 import flixel.FlxBasic;
-
-import extension.webview.WebView;
+import webView.WebView;
 
 using StringTools;
 
